@@ -1,0 +1,122 @@
+/* 🎨 Classical Style - Clean and Elegant */
+
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Heading Styles */
+h1, h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Light/Dark Mode Toggle Button */
+#themeToggle {
+  display: block;
+  margin: 10px auto 30px;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#themeToggle:hover {
+  background-color: #34495e;
+}
+
+/* Counter Section */
+#counterValue {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#counterBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #e1b12c;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#counterBtn:hover {
+  background-color: #d4a017;
+}
+
+/* Form Section */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #34495e;
+}
+
+/* Feedback Message */
+#formMessage {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #2c3e50;
+  color: #f8f8f8;
+}
+
+.dark-mode form {
+  background-color: #3d5060;
+  border-color: #444;
+}
